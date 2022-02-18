@@ -15,13 +15,13 @@ $(document).ready(function(){
   let btn = $('.notice > ul > li:first-child > a');
 
   btn.click(function(){
-    $('.modal').show();
+    $('.modal').fadeIn();
   });
 
   let close = $('.c_btn');
 
   close.click(function(){
-    $('.modal').hide();
+    $('.modal').fadeOut();
   });
   
 });
